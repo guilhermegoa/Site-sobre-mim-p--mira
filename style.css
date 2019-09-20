@@ -77,7 +77,7 @@ a img{
 
 #sobre{
 	margin:0px 43px; 
-	padding-top:115px;
+	padding-top:120px;
 }
 
 #sobre h1{
@@ -102,6 +102,7 @@ a img{
 #sobre .conteudo img{
 	float: left;
 	margin-right: 40px;
+	width: 240px;
 }
 
 /****************************************************/
@@ -117,7 +118,26 @@ a img{
 	width:235px;
 	float:left;
 	padding-right: 40px;
+	padding-left: 50px;
 	padding-bottom: 40px;
+}
+
+#experiencia .coluna img{
+	padding-left: 90px;
+	width: 35px;
+	height: 35px;
+}
+
+#vendas{
+	padding-left: 80px;
+}
+
+#t-m{
+	padding-left: 30px
+}
+
+#f-i{
+	padding-left: 50px;
 }
 
 /****************************************************/
@@ -129,6 +149,22 @@ a img{
 	padding-top: 115px;
 }
 
+#imgs-hobbies{
+	padding-left: 30px;
+}
+
+#hobbies .coluna{
+	width:235px;
+	float:left;
+	padding-right: 40px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+#hobbies .coluna{
+	padding: auto;
+}
+
 /****************************************************/
 /* PQ MIRA */
 /****************************************************/
@@ -136,6 +172,16 @@ a img{
 #pq-mira{
 	margin: 0px 43px;
 	padding-top: 115px;
+}
+
+#pq-mira .conteudo{
+	overflow: auto;
+}
+
+#pq-mira .conteudo img{
+	float: left;
+	margin-right: 40px;
+	width: 150px;
 }
 
 /****************************************************/

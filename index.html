@@ -9,6 +9,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.3" type='text/javascript'></script>
 </head>
 
 <header></header>
@@ -116,8 +117,23 @@
 
 <footer></footer>
 
+<!-- JAVA SCRIPT -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
 
+            var target = this.hash;
+            var $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top - 5
+            }, 800, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+    });
 </script>
-
+<!-- FIM JAVA SCRIPT -->
 
 </html>

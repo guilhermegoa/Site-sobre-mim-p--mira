@@ -1,0 +1,217 @@
+/****************************************************/
+/* GERAL */
+/****************************************************/
+body{
+	background: #333333 url(img/page-bg.jpg) ; 
+    margin: 0px;
+	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+    color: #c7c6c6;
+}
+
+h1{
+	font: 400 58px/60px 'Bree Serif', Georgia, serif; 
+	color: #c7c6c6;
+}
+h2{
+	font: 400 18px/22px 'Bree Serif', Georgia, serif; 
+	color: #c7c6c6;}
+h3{
+	font: 400 14px/16px 'Bree Serif', Georgia, serif; 
+	color: #c7c6c6;
+}
+ul{
+	margin: 0px; 
+	padding: 0px;
+}
+a{
+	text-decoration: none; 
+	color: #c7c6c6;
+}
+a img{
+	border: 0px;
+}
+
+ #container{
+    width: 1100px;
+    margin: 0px auto 0px auto;
+    background: url(img/body-bg.png);
+    overflow: auto;
+} 
+
+/****************************************************/
+/* HEADER */
+/****************************************************/
+
+#header{
+	width:1015px;
+	height:100px;
+	background:#363636;
+	padding:0px 43px;
+	position: fixed;
+	top:0px;
+	left:50%;
+	margin: 0 0 0 -550px;
+}
+
+#header #logo{
+	padding-top:40px;
+	float:left;
+}
+
+#header #menu-principal{
+    float:right; 
+    padding-top:40px;
+}
+
+#header #menu-principal li{
+	float:left;
+	list-style:none;
+	margin-left:27px;
+	font: 400 16px/20px 'Bree Serif', Georgia, serif;
+}
+
+/****************************************************/
+/* BODY */
+/****************************************************/
+
+#sobre{
+	margin:0px 43px; 
+	padding-top:120px;
+}
+
+#sobre h1{
+	float: left;
+}
+
+#sobre #t-social{
+	float: right;
+	padding-top: 62px;
+}
+
+#sobre #t-social li{
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+}
+
+#sobre .conteudo{
+	overflow: auto;
+}
+
+#sobre .conteudo img{
+	float: left;
+	margin-right: 40px;
+	width: 240px;
+}
+
+/****************************************************/
+/* EXPERIENCIA */
+/****************************************************/
+
+#experiencia{
+	margin:0px 43px; 
+	padding-top:115px;
+}
+
+#experiencia .coluna{
+	width:235px;
+	float:left;
+	padding-right: 40px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+#experiencia .coluna img{
+	padding-left: 90px;
+	width: 35px;
+	height: 35px;
+}
+
+#vendas{
+	padding-left: 80px;
+}
+
+#t-m{
+	padding-left: 30px
+}
+
+#f-i{
+	padding-left: 50px;
+}
+
+/****************************************************/
+/* HOBBIES */
+/****************************************************/
+
+#hobbies{
+	margin: 0px 43px;
+	padding-top: 115px;
+}
+
+#imgs-hobbies{
+	padding-left: 30px;
+}
+
+#hobbies .coluna{
+	width:235px;
+	float:left;
+	padding-right: 40px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+#hobbies .coluna{
+	padding: auto;
+}
+
+/****************************************************/
+/* PQ MIRA */
+/****************************************************/
+
+#pq-mira{
+	margin: 0px 43px;
+	padding-top: 115px;
+}
+
+#pq-mira .conteudo{
+	overflow: auto;
+}
+
+#pq-mira .conteudo img{
+	float: left;
+	margin-right: 40px;
+	width: 150px;
+}
+/****************************************************/
+/* FOOTER */
+/****************************************************/
+
+#footer{
+	width: 100%;
+	height:100px;
+	background:#363636;
+	top:0px;
+	left:50%;
+	margin: 190px 0 0 0px;
+}
+
+#footer span{
+	float: right;
+	padding:40px 40px 0 0px;
+
+}
+
+/****************************************************/
+/* OUTROS */
+/****************************************************/
+
+.T-divisor, .B-divisor{
+	width: 100%;
+	height: 9px;
+	background: url(img/divider.png) repeat-x;
+	clear: both;
+}
+
+.T-divisor{
+	margin-bottom: 40px;
+}

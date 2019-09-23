@@ -58,6 +58,12 @@ a img{
 	float:left;
 }
 
+#logo img{
+	width: 450px;
+	margin-top: -100px;
+	margin-left: -20px;
+}
+
 #header #menu-principal{
     float:right; 
     padding-top:40px;
